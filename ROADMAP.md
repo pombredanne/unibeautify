@@ -1,6 +1,7 @@
 # Roadmap to v1.0.0
 
 - Supported usage
+
   - [ ] Atom
   - [ ] Sublime
   - [ ] CLI
@@ -32,8 +33,10 @@
     - Configurer will obtain values for the options
 - [ ] CLI
   - [ ] Find beautifiers globally installed named `beautifier-${name}`
-    - See https://github.com/yeoman/environment/blob/f9468481911c31673378b38e63872f57a1163f38/lib/resolver.js#L63
+    - See
+      https://github.com/yeoman/environment/blob/f9468481911c31673378b38e63872f57a1163f38/lib/resolver.js#L63
 - [ ] Atom
+
   - [ ] Configurers
     - [ ] Atom Editor Settings
     - [ ]
@@ -43,11 +46,8 @@
 - [ ] Sublime
   - Use CLI
 
-
-
-
-
 Models:
+
 - Options
 - Languages
   - name
@@ -59,20 +59,19 @@ Models:
   - hasMany Options
   - hasMany Languages
 
-
-- [ ] Can update Beautifier independently
-- [ ] Can update Language
+* [ ] Can update Beautifier independently
+* [ ] Can update Language
 
 Separate Options registry (centralized)
 
 Separate Languages registry (centralized)
 
 Separate Beautifiers (no registry, decentralized)
-- Peer/Atom dependencies:
-  -
 
+- ## Peer/Atom dependencies:
 
 Goal: NPM Global
+
 ```bash
 npm install --global unibeautify
 npm install --global beautifier-js-beautify
@@ -80,6 +79,7 @@ unibeautify --language JavaScript
 ```
 
 Goal: Atom
+
 ```bash
 apm install unibeautify
 apm install beautifier-js-beautify

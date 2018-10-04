@@ -61,15 +61,15 @@ continued growth and development.
 
 ## Features
 
-* Single beautifier abstracting multiple beautifiers for
+- Single beautifier abstracting multiple beautifiers for
   [multiple languages](https://unibeautify.com/docs/languages)
-* Unified beautifier
+- Unified beautifier
   [configuration options](https://unibeautify.com/docs/config-file)
-* Automated beautification with
+- Automated beautification with
   [Unibeautify CI](https://unibeautify.com/docs/ci)
-* Easy to set up with NPM
-* Simple usage
-* The old way through the [console window](#command-line-interface-cli)
+- Easy to set up with NPM
+- Simple usage
+- The old way through the [console window](#command-line-interface-cli)
 
 ## Installation
 

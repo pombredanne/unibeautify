@@ -195,9 +195,9 @@ describe("prefer beautifier config enabled", () => {
       beautify: ({ dependencies, beautifierConfig }) => {
         expect(() => dependencies.get(dependency.name)).not.toThrowError();
         return Promise.resolve(
-          beautifierConfig && 
+          beautifierConfig &&
             (beautifierConfig.filePath || beautifierConfig.config)
-          );
+        );
       },
       dependencies: [dependency],
       name: "TestBeautify",

@@ -398,13 +398,12 @@ export class Unibeautify {
                   return Promise.resolve({
                     filePath: beautifierOptions.beautifier_config_path,
                   });
-                }
-                else if (beautifier.resolveConfig) {
+                } else if (beautifier.resolveConfig) {
                   return beautifier.resolveConfig({
                     dependencies: dependencyManager,
                     filePath,
                     projectPath,
-                  }); 
+                  });
                 }
               }
               return Promise.resolve({});
